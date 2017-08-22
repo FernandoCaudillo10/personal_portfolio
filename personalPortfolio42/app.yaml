@@ -1,4 +1,4 @@
-application: personalPortfolio42
+application: personalportfolio
 version: 1
 runtime: python27
 api_version: 1
@@ -9,9 +9,12 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: .*
+- url: /.*
   script: main.app
-
+- url: /resources
+  static_dir: static
 libraries:
 - name: webapp2
   version: "2.5.2"
+- name: jinja2
+  version: latest

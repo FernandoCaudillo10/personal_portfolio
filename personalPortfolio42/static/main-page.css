@@ -1,0 +1,79 @@
+body{
+  margin: 0em;
+  padding: 0em;
+  background-color:#2c3e50;
+}
+#text-box {
+  background-color: #E5E4D7;
+  margin: 0em 4% 0em 20%;
+  padding-top: 20em;
+  padding-bottom: 50em;
+}
+#intro {
+  background-image: url(https://res.cloudinary.com/drowcbtjw/image/upload/v1487983858/1920x1200-data-out-160-47420301-modern-wallpapers_n9qulv.jpg);
+  margin: 0 0 0 15%;
+  height: 400px;
+  padding: 1em;
+}
+#foot-top {
+  display: inline-block;
+  width: 100%;
+  background-image: url(https://res.cloudinary.com/drowcbtjw/image/upload/v1487983858/1920x1200-data-out-160-47420301-modern-wallpapers_n9qulv.jpg);
+  padding: 1em 3em 1em 17%;
+  height: 200px;
+}
+#foot-bottom {
+  display: inline-block;
+  width: 100%;
+  background-color: #2c3e50;
+  padding: .5em 0 .5em 17%;
+  text-align: center;
+}
+.intro-text {
+  float: left;
+  width: 60%;
+  color: #fff;
+  font-family: Times, setif;
+  font-size: 2.7em;
+  text-align: center;
+  overflow: auto;
+  max-height: 400px;
+
+}
+#selfie {
+  float: right;
+  width: 39%;
+  height: 100%;
+  border-radius: 20px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 5em 0;
+  top: 0;
+  background-color:#E5E4D7;
+  width: 15%;
+  border: 1px solid #000;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  box-shadow: 0 20px 10px 5px #000;
+}
+a.head-button{
+  display: block;
+  color: #000;
+  padding: .5em;
+  font-family: Times, serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+a.head-button:hover{
+  background-color: #555;
+  color: white;
+}
+.fa-code{
+  width: 100%;
+  text-align: center;
+  color: white;
+}
